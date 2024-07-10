@@ -19,7 +19,7 @@ export GAZEBO_MODEL_PATH=~/sim_ws/src/ros2_explorer/explorer_gazebo/models
 Place your floorplan image (e.g., `ahsr.png`) in the following directory:
 
 ```
-sim_ws/src/ros2_explorer/explorer_gazebo
+cd sim_ws/src/ros2_explorer/explorer_gazebo
 ```
 
 ### 2. Convert Floorplan to CSV
@@ -43,7 +43,6 @@ sim_ws/src/ros2_explorer/explorer_gazebo/maps
 Navigate to the `explorer_gazebo` directory and run the script to generate the Gazebo world:
 
 ```bash
-cd ~/sim_ws/src/ros2_explorer/explorer_gazebo/
 python3 gazebo-map-from-csv.py
 ```
 
