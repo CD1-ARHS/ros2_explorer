@@ -1,8 +1,6 @@
 # ROS 2 Turtlebot 3 Map Explorer
 ## Description
-In this repo we use Turtlebot 3 along with ROS 2 and Gazebo to explore an unknown csv environment, navigate through it and create a map. 
-
-The map is created using SLAM with the package [Google Cartographer](https://github.com/cartographer-project/cartographer) and navigation is achieved with [Nav2](https://github.com/ros-planning/navigation2) package. We have developed two exploring algorithyms:
+In this package we use Turtlebot 3 to explore an unknown csv environment generated from an image, navigate through it and create a map.
 
 >**Wanderer Exploration** explores the map doing random turns when it detects an obstacle. It's a convenient way to explore small maps but time consuming for bigger ones.
   
