@@ -1,6 +1,7 @@
 # ROS 2 Turtlebot 3 Map Explorer
 ## Description
 In this package we use Turtlebot 3 to explore an unknown csv environment generated from an image, navigate through it and create a map.
+![image](https://github.com/CD1-ARHS/ros2_explorer/assets/61055337/02421c2c-8a76-4561-870d-753bc94deb86)
 
 >**Wanderer Exploration** explores the map doing random turns when it detects an obstacle. It's a convenient way to explore small maps but time consuming for bigger ones.
   
